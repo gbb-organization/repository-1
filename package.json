@@ -1,5 +1,5 @@
 "name": "repository-1",  
 "version": "0.0.1",
 "scripts": {
-  "test": "node 10-sec-failed-test"
+  "test": "node 10-sec-failed-test.js"
 }
