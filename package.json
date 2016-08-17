@@ -1,0 +1,10 @@
+{
+  "name": "repository-1",  
+  "version": "0.0.1",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "test": "node 10-sec-failed-test.js"
+  }
+}
