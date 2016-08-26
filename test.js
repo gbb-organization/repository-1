@@ -1,4 +1,4 @@
-process.stdout.write('Running succeed test\n');
+process.stdout.write('Running failed test\n');
 
 setInterval(function () {
     process.stdout.write('.');
@@ -6,7 +6,7 @@ setInterval(function () {
 
 setTimeout(function () {
     /*eslint-disable no-process-exit*/
-    process.stderr.write('\nTest passed');
-    process.exit(0);
+    process.stderr.write('\nTest failed');
+    process.exit(1);
     /*eslint-enable no-process-exit*/
 }, 10000);
