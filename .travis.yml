@@ -8,3 +8,7 @@ branches:
 branches:
   except:
     - /^temp-.*$/
+
+branches:
+  except:
+    - /^aaa-.*$/
