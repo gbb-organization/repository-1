@@ -4,3 +4,7 @@ node_js: iojs
 branches:
   except:
     - /^fake-.*$/
+
+branches:
+  except:
+    - /^temp-.*$/
